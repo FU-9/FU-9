@@ -14,7 +14,7 @@ sudo netstat -tap | grep mysql
 ```
 出现如下信息则安装成功!
 
-[image](https://github.com/FU-9/FU-9/blob/master/img/8038576-dee455ba8b6dc130.png)
+![image](https://github.com/FU-9/FU-9/blob/master/img/8038576-dee455ba8b6dc130.png)
 
 现在设置mysql允许远程访问
 编辑命令
