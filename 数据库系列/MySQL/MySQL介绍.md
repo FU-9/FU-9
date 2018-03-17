@@ -74,7 +74,7 @@ show variables like '%char%'
 
 mysql服务端软件即mysqld帮我们管理好文件夹以及文件，前提是作为使用者的我们，需要下载mysql的哭护短，或者其他模块来链接到mysqld，然后使用mysql软件规定的语法格式去提交自己命令，实现对文件夹或文件的管理。该语法即sql（Structured Query Language 即结构化查询语言）
 
-sql语言分为3中类型：
+###### sql语言分为3中类型：
 + 1、DDL语句 数据库定义语言：数据库、表、视图、索引、存储过程，例如：create drop alter
 + 2、DML语句 数据库操纵语言：插入数据insert、删除数据delete、更新数据update、查询数据select
 + 3、DCL语句 数据库控制语言：例如控制用户的访问权限grant、revoke
