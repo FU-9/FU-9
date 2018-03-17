@@ -12,14 +12,19 @@ sudo apt-get install libmysqlclient-dev
 ```
 sudo netstat -tap | grep mysql
 ```
-出现如下信息则安装成功![image](https://github.com/FU-9/FU-9/blob/master/img/8038576-dee455ba8b6dc130.png)
+出现如下信息则安装成功!
+
+[image](https://github.com/FU-9/FU-9/blob/master/img/8038576-dee455ba8b6dc130.png)
+
 现在设置mysql允许远程访问
 编辑命令
 ```
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 ```
 把bind-address = 127.0.0.1注释或改为bind-address = 0.0.0.0
+
 ![image](https://github.com/FU-9/FU-9/blob/master/img/8038576-287bc3db3d6d925e.png)
+
 编辑完成之后保存退出（esc+:wq+enter）
 
 然后通过`mysql -u 用户名 -p 密码`例：`mysql -uroot -pfufufu`*`-u -p 后不加空格` 进入mysql服务，分别执行以下授权命令：
