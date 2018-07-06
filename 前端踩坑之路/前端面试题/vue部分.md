@@ -56,3 +56,17 @@ vue的model层的属性。绑定事件：<div @click="doLog()"/>
 更新前/后：当data变化时，会触发beforeUpdate和updated方法。
 销毁前/后：在执行destroy方法后，对data的改变不会再触发周期函数，说明此时vue实例已经解除了事件监听以及和dom的绑定，但是dom结构依然存在
 ```
+10、vue常用指令 及 用法
+```
+v-if：判断是否隐藏；v-for：数据循环出来；v-bind:class：绑定一个属性；v-model：实现双向绑定
+```
+11、vuex得属性
+```
+ State、 Getter、Mutation 、Action、 Module
+```
+12、vuex的mutation特性
+```
+一、Action 类似于 mutation，不同在于：
+二、Action 提交的是 mutation，而不是直接变更状态。
+三、Action 可以包含任意异步操作
+```
